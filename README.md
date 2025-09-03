@@ -9,8 +9,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Then, run test cases:
+Then, build and run test cases:
 ```
+c++ src/*.cpp -I include/ -o math_program -std=c++17
 pytest
 ```
 
